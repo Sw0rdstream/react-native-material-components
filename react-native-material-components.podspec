@@ -63,20 +63,6 @@ The purpose of this project is to reduce the duplicated wheels and just make a w
   s.source       = { :git => "https://github.com/Sw0rdstream/react-native-material-components.git", :tag => "#{s.version}" }
 
 
-  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  CocoaPods is smart about how it includes source code. For source files
-  #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it will include any header in the folder.
-  #  Not including the public_header_files will make all headers public.
-  #
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
-
-
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  A list of resources included with the Pod. These are copied into the
@@ -113,6 +99,7 @@ The purpose of this project is to reduce the duplicated wheels and just make a w
 
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "React", "MaterialComponents"
+  s.dependency "React"
+  s.dependency "MaterialComponents"
 
 end

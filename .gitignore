@@ -58,3 +58,18 @@ fastlane/screenshots
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# nodejs
+node_modules/
+npm-debug.log
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+#OSX
+.DS_Store

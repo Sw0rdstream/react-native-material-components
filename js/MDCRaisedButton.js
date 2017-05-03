@@ -1,9 +1,12 @@
 import {requireNativeComponent} from 'react-native';
 import React, { Component } from 'react';
 export default class MDCRaisedButton extends React.Component {
+  static propTypes = {
+
+  };
   render() {
-    return <RCTMDCRaisedButton {...this.props} />;
+    return <NativeMDCRaisedButton {...this.props} />;
   }
 }
 
-const RCTMDCRaisedButton = requireNativeComponent('RCTMDCRaisedButton', MDCRaisedButton);
+const NativeMDCRaisedButton = requireNativeComponent('MDCRaisedButton', MDCRaisedButton);

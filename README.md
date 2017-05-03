@@ -42,3 +42,34 @@ export default YourUIComponent extends React.Component {
 };
 
 ```
+
+# RoadMap
+
+🚀 &nbsp;**OPEN** &nbsp;&nbsp;📉 &nbsp;&nbsp;**0 / 24** goals completed  &nbsp;&nbsp;📅 &nbsp;&nbsp;**May 3, 2017**
+
+| Status | Goal | Labels | Platform |
+| :---: | :--- | --- | --- |
+| ❌ | [ActivityIndicator](https://github.com/material-components/material-components-ios/tree/develop…mponents/material-components-ios/tree/develop/components/ActivityIndicator) |`not started`| ios |
+| ❌ | [AnimationTiming](https://github.com/material-components/material-components-ios/tree/develop…components/material-components-ios/tree/develop/components/AnimationTiming) |`not started`| ios |
+| ❌ | [AppBar](https://github.com/material-components/material-components-ios/tree/develop…material-components/material-components-ios/tree/develop/components/AppBar) |`not started`| ios |
+| ❌ | [ButtonBar](https://github.com/material-components/material-components-ios/tree/develop…erial-components/material-components-ios/tree/develop/components/ButtonBar) |`not started`| ios |
+| :arrows_counterclockwise: | [Buttons](https://github.com/material-components/material-components-ios/tree/develop…aterial-components/material-components-ios/tree/develop/components/Buttons) |`in progress`| ios |
+| ❌ | [CollectionCells](https://github.com/material-components/material-components-ios/tree/develop…components/material-components-ios/tree/develop/components/CollectionCells) |`not started`| ios |
+| ❌ | [CollectionLayoutAttributes](https://github.com/material-components/material-components-ios/tree/develop…material-components-ios/tree/develop/components/CollectionLayoutAttributes) |`not started`| ios |
+| ❌ | [Collections](https://github.com/material-components/material-components-ios/tree/develop…ial-components/material-components-ios/tree/develop/components/Collections) |`not started`| ios |
+| ❌ | [Dialogs](https://github.com/material-components/material-components-ios/tree/develop…aterial-components/material-components-ios/tree/develop/components/Dialogs) |`not started`| ios |
+| ❌ | [FeatureHighlight](https://github.com/material-components/material-components-ios/tree/develop…omponents/material-components-ios/tree/develop/components/FeatureHighlight) |`not started`| ios |
+| ❌ | [FlexibleHeader](https://github.com/material-components/material-components-ios/tree/develop…-components/material-components-ios/tree/develop/components/FlexibleHeader) |`not started`| ios |
+| ❌ | [HeaderStackView](https://github.com/material-components/material-components-ios/tree/develop…components/material-components-ios/tree/develop/components/HeaderStackView) |`not started`| ios |
+| ❌ | [Ink](https://github.com/material-components/material-components-ios/tree/develop…om/material-components/material-components-ios/tree/develop/components/Ink) |`not started`| ios |
+| ❌ | [NavigationBar](https://github.com/material-components/material-components-ios/tree/develop…l-components/material-components-ios/tree/develop/components/NavigationBar) |`not started`| ios |
+| ❌ | [OverlayWindow](https://github.com/material-components/material-components-ios/tree/develop…l-components/material-components-ios/tree/develop/components/OverlayWindow) |`not started`| ios |
+| ❌ | [PageControl](https://github.com/material-components/material-components-ios/tree/develop…ial-components/material-components-ios/tree/develop/components/PageControl) |`not started`| ios |
+| ❌ | [Palettes](https://github.com/material-components/material-components-ios/tree/develop…terial-components/material-components-ios/tree/develop/components/Palettes) |`not started`| ios |
+| ❌ | [ProgressView](https://github.com/material-components/material-components-ios/tree/develop…al-components/material-components-ios/tree/develop/components/ProgressView) |`not started`| ios |
+| ❌ | [ShadowElevations](https://github.com/material-components/material-components-ios/tree/develop…omponents/material-components-ios/tree/develop/components/ShadowElevations) |`not started`| ios |
+| ❌ | [ShadowLayer](https://github.com/material-components/material-components-ios/tree/develop…ial-components/material-components-ios/tree/develop/components/ShadowLayer) |`not started`| ios |
+| ❌ | [Slider](https://github.com/material-components/material-components-ios/tree/develop…material-components/material-components-ios/tree/develop/components/Slider) |`not started`| ios |
+| ❌ | [Snackbar](https://github.com/material-components/material-components-ios/tree/develop…terial-components/material-components-ios/tree/develop/components/Snackbar) |`not started`| ios |
+| ❌ | [Tabs](https://github.com/material-components/material-components-ios/tree/develop…m/material-components/material-components-ios/tree/develop/components/Tabs) |`not started`| ios |
+| ❌ | [Typography](https://github.com/material-components/material-components-ios/tree/develop…rial-components/material-components-ios/tree/develop/components/Typography) |`not started`| ios |

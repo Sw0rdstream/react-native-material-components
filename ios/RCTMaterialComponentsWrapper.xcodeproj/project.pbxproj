@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5011AB9E1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5011AB9C1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.h */; };
+		5011AB9F1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5011AB9D1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.m */; };
 		50CE214B1EAF62E200601DE8 /* RCTMaterialComponentsWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 50CE21491EAF62E200601DE8 /* RCTMaterialComponentsWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5011AB9C1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCRaisedButtonManager.h; sourceTree = "<group>"; };
+		5011AB9D1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCRaisedButtonManager.m; sourceTree = "<group>"; };
 		50CE21461EAF62E200601DE8 /* RCTMaterialComponentsWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RCTMaterialComponentsWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CE21491EAF62E200601DE8 /* RCTMaterialComponentsWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTMaterialComponentsWrapper.h; sourceTree = "<group>"; };
 		50CE214A1EAF62E200601DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 		50CE21481EAF62E200601DE8 /* RCTMaterialComponentsWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				5011AB9C1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.h */,
+				5011AB9D1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.m */,
 				50CE21491EAF62E200601DE8 /* RCTMaterialComponentsWrapper.h */,
 				50CE214A1EAF62E200601DE8 /* Info.plist */,
 			);
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5011AB9E1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.h in Headers */,
 				50CE214B1EAF62E200601DE8 /* RCTMaterialComponentsWrapper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5011AB9F1EB9BEDD00EC6A22 /* MDCRaisedButtonManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -232,6 +232,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)/**";
 			};
 			name = Debug;
 		};
@@ -242,6 +243,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(CONFIGURATION_BUILD_DIR)/**";
 			};
 			name = Release;
 		};

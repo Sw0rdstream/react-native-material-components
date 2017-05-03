@@ -1,25 +1,44 @@
 # react-native-material-components
 [WIP] A react native wrapper for Google's material library: https://github.com/material-components/material-components-ios
 
-## Installation to your react native projects
-1 install npm modules
+# Installation to your react native projects
+1. install npm modules  
+
 ```
-  npm install --save https://github.com/Sw0rdstream/react-native-material-components/tarball/master
-  react-native link
+  $ npm install --save https://github.com/Sw0rdstream/react-native-material-components/tarball/master
+  $ react-native link
 ```
+
 This will add the library project into the library groups of your main projects. 
 
-> 2 Make your ios project into a Pod project (You can skip it if you don't need ios)
+2. Make your ios project into a Pod project (You can skip it if you don't need ios)
+3. Add `material-components-ios` into your pod dependency 
+Add MaterialComponents to your podfile, because our library is a wrapper of the components inside the pod.
 
-> 3 Add `material-components-ios` into your pod dependency
-Add 
 ```
-  pod 'MaterialComponents'
+pod 'MaterialComponents'
 ```
+
 (FYI, the ios lib project of react-native-material-components adds `$(CONFIGURATION_BUILD_DIR)/**` into `USER_HEADER_SEARCH PATHS` so that it can refer React library and Pod library)
 
-> 4 Install `material-components-ios`
+4. Install material-components-ios
 ```
-  pod install
+  $ pod install
 ```
 
+# Example
+
+```javascript
+import {MDCRaisedButton} from 'react-native-material-components';
+
+export default YourUIComponent extends React.Component {
+   render(){
+      return (
+      <View style={{flex:1}}>
+        <MDCRaisedButton />
+      </View>
+      );
+   }
+};
+
+```

@@ -5,6 +5,8 @@
 
 #import <React/RCTViewManager.h>
 
-@interface MDCRaisedButtonManager : RCTViewManager
+@interface RCTMDCRaisedButtonManager : RCTViewManager
+
+
 
 @end

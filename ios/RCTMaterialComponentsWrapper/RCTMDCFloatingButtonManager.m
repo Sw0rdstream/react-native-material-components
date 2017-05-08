@@ -1,24 +1,25 @@
 //
-//  React Native Bridger to MDCRaisedButton
-//  Created by Sw0rdstream (su_h@worksap.co.jp) on 2017/4/21.
+//  RCTMDCFloatingButtonManager.m
+//  RCTMaterialComponentsWrapper
+//
+//  Created by 蘇航 on 2017/5/8.
+//  Copyright © 2017年 swordstream. All rights reserved.
 //
 
-#import "RCTMDCRaisedButtonManager.h"
-#import "RCTMDCRaisedButtonView.h"
-
-@implementation RCTMDCRaisedButtonManager
-
+#import "RCTMDCFloatingButtonManager.h"
+#import "RCTMDCFloatingButtonView.h"
+@implementation RCTMDCFloatingButtonManager
 RCT_EXPORT_MODULE()
 
 - (UIView *)view {
-  RCTMDCRaisedButtonView * btn = [[RCTMDCRaisedButtonView alloc] init];
-  return btn;
+    RCTMDCFloatingButtonView * btn = [[RCTMDCFloatingButtonView alloc] init];
+    return btn;
 }
+
 
 /**
  * Keep same with RCTMDCButtonManager
  */
-
 RCT_EXPORT_VIEW_PROPERTY(title, NSString)
 
 RCT_EXPORT_VIEW_PROPERTY(backgroundColor, UIColor)
@@ -31,4 +32,5 @@ RCT_REMAP_VIEW_PROPERTY(disabledAlpha, _button.disabledAlpha, CGFloat)
 
 RCT_REMAP_VIEW_PROPERTY(uppercaseTitle, _button.uppercaseTitle, BOOL)
 RCT_EXPORT_VIEW_PROPERTY(elevation, CGFloat)
+
 @end

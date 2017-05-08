@@ -1,20 +1,19 @@
 //
-//  RCTMDCRaisedButtonView.m
+//  RCTMDCFloatingButtonView.m
 //  RCTMaterialComponentsWrapper
 //
-//  Created by 蘇航 on 2017/5/5.
+//  Created by 蘇航 on 2017/5/8.
 //  Copyright © 2017年 swordstream. All rights reserved.
 //
 
-#import "RCTMDCRaisedButtonView.h"
+#import "RCTMDCFloatingButtonView.h"
 
-@implementation RCTMDCRaisedButtonView
-
+@implementation RCTMDCFloatingButtonView
 #pragma mark Declaration
 
 - (instancetype) init {
     if((self = [super init])){
-        _button = [MDCRaisedButton new];
+        _button = [MDCFloatingButton new];
         _button.contentMode = UIViewContentModeScaleAspectFit;
         [self addSubview: _button];
     }

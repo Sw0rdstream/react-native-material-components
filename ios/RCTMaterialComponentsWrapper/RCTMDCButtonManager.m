@@ -1,23 +1,22 @@
 //
-//  React Native Bridger to MDCRaisedButton
-//  Created by Sw0rdstream (su_h@worksap.co.jp) on 2017/4/21.
+//  RCTMDCButtons.m
+//  RCTMaterialComponentsWrapper
+//
+//  Created by 蘇航 on 2017/5/8.
+//  Copyright © 2017年 swordstream. All rights reserved.
 //
 
-#import "RCTMDCRaisedButtonManager.h"
-#import "RCTMDCRaisedButtonView.h"
+#import "RCTMDCButtonManager.h"
+#import "RCTMDCButtonView.h"
 
-@implementation RCTMDCRaisedButtonManager
-
+@implementation RCTMDCButtonManager
 RCT_EXPORT_MODULE()
 
 - (UIView *)view {
-  RCTMDCRaisedButtonView * btn = [[RCTMDCRaisedButtonView alloc] init];
-  return btn;
+    RCTMDCButtonView * btn = [[RCTMDCButtonView alloc] init];
+    return btn;
 }
 
-/**
- * Keep same with RCTMDCButtonManager
- */
 
 RCT_EXPORT_VIEW_PROPERTY(title, NSString)
 

@@ -9,8 +9,14 @@
 /* Begin PBXBuildFile section */
 		5011AE7B1EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5011AE7A1EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.m */; };
 		5011AE7C1EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5011AE791EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.h */; };
-		509EA68B1EBCBAA7005A1AA3 /* RCTMDCRaisedButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6881EBCBAA7005A1AA3 /* RCTMDCRaisedButtonManager.m */; };
-		509EA68C1EBCBAA7005A1AA3 /* RCTMDCRaisedButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA68A1EBCBAA7005A1AA3 /* RCTMDCRaisedButtonView.m */; };
+		509EA6EF1EC0A7E2005A1AA3 /* RCTMDCButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6E01EC0A7E2005A1AA3 /* RCTMDCButtonManager.m */; };
+		509EA6F01EC0A7E2005A1AA3 /* RCTMDCButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6E21EC0A7E2005A1AA3 /* RCTMDCButtonView.m */; };
+		509EA6F11EC0A7E2005A1AA3 /* RCTMDCFlatButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6E41EC0A7E2005A1AA3 /* RCTMDCFlatButtonManager.m */; };
+		509EA6F21EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6E61EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.m */; };
+		509EA6F31EC0A7E2005A1AA3 /* RCTMDCFloatingButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6E81EC0A7E2005A1AA3 /* RCTMDCFloatingButtonManager.m */; };
+		509EA6F41EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6EA1EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.m */; };
+		509EA6F51EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6EC1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m */; };
+		509EA6F61EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6EE1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,10 +36,22 @@
 		5011AE761EB9EFC100EC6A22 /* libRCTMaterialComponentsWrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTMaterialComponentsWrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5011AE791EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTMaterialComponentsWrapper.h; sourceTree = "<group>"; };
 		5011AE7A1EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTMaterialComponentsWrapper.m; sourceTree = "<group>"; };
-		509EA6871EBCBAA7005A1AA3 /* RCTMDCRaisedButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCRaisedButtonManager.h; sourceTree = "<group>"; };
-		509EA6881EBCBAA7005A1AA3 /* RCTMDCRaisedButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCRaisedButtonManager.m; sourceTree = "<group>"; };
-		509EA6891EBCBAA7005A1AA3 /* RCTMDCRaisedButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCRaisedButtonView.h; sourceTree = "<group>"; };
-		509EA68A1EBCBAA7005A1AA3 /* RCTMDCRaisedButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCRaisedButtonView.m; sourceTree = "<group>"; };
+		509EA6DF1EC0A7E2005A1AA3 /* RCTMDCButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCButtonManager.h; sourceTree = "<group>"; };
+		509EA6E01EC0A7E2005A1AA3 /* RCTMDCButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCButtonManager.m; sourceTree = "<group>"; };
+		509EA6E11EC0A7E2005A1AA3 /* RCTMDCButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCButtonView.h; sourceTree = "<group>"; };
+		509EA6E21EC0A7E2005A1AA3 /* RCTMDCButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCButtonView.m; sourceTree = "<group>"; };
+		509EA6E31EC0A7E2005A1AA3 /* RCTMDCFlatButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCFlatButtonManager.h; sourceTree = "<group>"; };
+		509EA6E41EC0A7E2005A1AA3 /* RCTMDCFlatButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCFlatButtonManager.m; sourceTree = "<group>"; };
+		509EA6E51EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCFlatButtonView.h; sourceTree = "<group>"; };
+		509EA6E61EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCFlatButtonView.m; sourceTree = "<group>"; };
+		509EA6E71EC0A7E2005A1AA3 /* RCTMDCFloatingButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCFloatingButtonManager.h; sourceTree = "<group>"; };
+		509EA6E81EC0A7E2005A1AA3 /* RCTMDCFloatingButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCFloatingButtonManager.m; sourceTree = "<group>"; };
+		509EA6E91EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCFloatingButtonView.h; sourceTree = "<group>"; };
+		509EA6EA1EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCFloatingButtonView.m; sourceTree = "<group>"; };
+		509EA6EB1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCRaisedButtonManager.h; sourceTree = "<group>"; };
+		509EA6EC1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCRaisedButtonManager.m; sourceTree = "<group>"; };
+		509EA6ED1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCRaisedButtonView.h; sourceTree = "<group>"; };
+		509EA6EE1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCRaisedButtonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +94,22 @@
 		509EA6861EBCBA43005A1AA3 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				509EA6871EBCBAA7005A1AA3 /* RCTMDCRaisedButtonManager.h */,
-				509EA6881EBCBAA7005A1AA3 /* RCTMDCRaisedButtonManager.m */,
-				509EA6891EBCBAA7005A1AA3 /* RCTMDCRaisedButtonView.h */,
-				509EA68A1EBCBAA7005A1AA3 /* RCTMDCRaisedButtonView.m */,
+				509EA6DF1EC0A7E2005A1AA3 /* RCTMDCButtonManager.h */,
+				509EA6E01EC0A7E2005A1AA3 /* RCTMDCButtonManager.m */,
+				509EA6E11EC0A7E2005A1AA3 /* RCTMDCButtonView.h */,
+				509EA6E21EC0A7E2005A1AA3 /* RCTMDCButtonView.m */,
+				509EA6E31EC0A7E2005A1AA3 /* RCTMDCFlatButtonManager.h */,
+				509EA6E41EC0A7E2005A1AA3 /* RCTMDCFlatButtonManager.m */,
+				509EA6E51EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.h */,
+				509EA6E61EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.m */,
+				509EA6E71EC0A7E2005A1AA3 /* RCTMDCFloatingButtonManager.h */,
+				509EA6E81EC0A7E2005A1AA3 /* RCTMDCFloatingButtonManager.m */,
+				509EA6E91EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.h */,
+				509EA6EA1EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.m */,
+				509EA6EB1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.h */,
+				509EA6EC1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m */,
+				509EA6ED1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.h */,
+				509EA6EE1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m */,
 			);
 			name = Buttons;
 			sourceTree = "<group>";
@@ -142,9 +172,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				509EA68B1EBCBAA7005A1AA3 /* RCTMDCRaisedButtonManager.m in Sources */,
-				509EA68C1EBCBAA7005A1AA3 /* RCTMDCRaisedButtonView.m in Sources */,
+				509EA6F01EC0A7E2005A1AA3 /* RCTMDCButtonView.m in Sources */,
+				509EA6F61EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m in Sources */,
+				509EA6F21EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.m in Sources */,
+				509EA6F51EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m in Sources */,
+				509EA6EF1EC0A7E2005A1AA3 /* RCTMDCButtonManager.m in Sources */,
 				5011AE7B1EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.m in Sources */,
+				509EA6F31EC0A7E2005A1AA3 /* RCTMDCFloatingButtonManager.m in Sources */,
+				509EA6F41EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.m in Sources */,
+				509EA6F11EC0A7E2005A1AA3 /* RCTMDCFlatButtonManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

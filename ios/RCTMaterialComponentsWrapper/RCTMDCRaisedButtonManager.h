@@ -4,8 +4,9 @@
 //
 
 #import <React/RCTViewManager.h>
+#import "RCTMDCButtonManager.h"
 
-@interface RCTMDCRaisedButtonManager : RCTViewManager
+@interface RCTMDCRaisedButtonManager : RCTMDCButtonManager
 
 
 

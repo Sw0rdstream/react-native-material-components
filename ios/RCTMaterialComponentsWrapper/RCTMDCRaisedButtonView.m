@@ -13,11 +13,8 @@
 #pragma mark Declaration
 
 - (instancetype) init {
-    if((self = [super init])){
-        _button = [MDCRaisedButton new];
-        _button.contentMode = UIViewContentModeScaleAspectFit;
-        [self addSubview: _button];
-    }
+    MDCRaisedButton * btn = [MDCRaisedButton new];
+    self = [super initWithMDCButton:btn];
     return self;
 }
 

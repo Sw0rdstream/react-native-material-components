@@ -17,6 +17,17 @@
         _button = [MDCButton new];
         _button.contentMode = UIViewContentModeScaleAspectFit;
         [self addSubview: _button];
+        [_button addTarget:self action:@selector(onButtonPress:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return self;
+}
+
+- (instancetype) initWithMDCButton: (MDCButton *) buttonView {
+    if((self = [super init])){
+        _button = buttonView;
+        _button.contentMode = UIViewContentModeScaleAspectFit;
+        [self addSubview: buttonView];
+        [_button addTarget:self action:@selector(onButtonPress:) forControlEvents:UIControlEventTouchUpInside];
     }
     return self;
 }
@@ -63,6 +74,13 @@
     return [_button elevationForState:UIControlStateNormal];
 }
 
+#pragma mark Event Binding
+
+- (void) onButtonPress : (UIView *) sender {
+    if(self.onPress){
+        self.onPress(@{});
+    }
+}
 
 @end
 

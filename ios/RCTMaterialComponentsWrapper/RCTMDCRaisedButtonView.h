@@ -8,7 +8,6 @@
 
 #import <React/RCTView.h>
 #import "RCTMDCButtonView.h"
-#import "MaterialButtons.h"
 
 @interface RCTMDCRaisedButtonView : RCTMDCButtonView
 

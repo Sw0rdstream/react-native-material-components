@@ -13,6 +13,7 @@ export default class MDCButton extends React.Component {
     disabledAlpha: React.PropTypes.number,
     elevation: React.PropTypes.number,
     uppercaseTitle: React.PropTypes.bool,
+    onPress: React.PropTypes.func
   };
 
 static defaultProps = {

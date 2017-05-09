@@ -12,13 +12,11 @@
 #pragma mark Declaration
 
 - (instancetype) init {
-    if((self = [super init])){
-        _button = [MDCFloatingButton new];
-        _button.contentMode = UIViewContentModeScaleAspectFit;
-        [self addSubview: _button];
-    }
+    MDCFloatingButton * button = [MDCFloatingButton new];
+    self = [super initWithMDCButton:button];
     return self;
 }
+
 
 
 @end

@@ -10,5 +10,4 @@
 
 @interface RCTMDCFloatingButtonView : RCTMDCButtonView
 
-
 @end

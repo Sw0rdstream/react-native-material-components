@@ -27,16 +27,21 @@ pod 'MaterialComponents'
 ```
 
 # Example
-
+![alt text](/screenshots/MDCButton.gif "MDCButton")
 ```javascript
 import {MDCRaisedButton} from 'react-native-material-components';
 
 export default YourUIComponent extends React.Component {
    render(){
       return (
-      <View style={{flex:1}}>
-        <MDCRaisedButton />
-      </View>
+        <View style={{flex:1, margin:100}}>
+          <View style={{width:200, height:34}}>
+            <MDCRaisedButton title="ABC" onPress={()=>{alert(1)}} style={{flex:1}} />
+          </View>
+          <View style={{width:64, height:64, marginTop:20}}>
+            <MDCFloatingButton title="def" onPress={()=>{alert(2)}} backgroundColor="#CD00AB" style={{flex:1}} />
+          </View>
+        </View>
       );
    }
 };

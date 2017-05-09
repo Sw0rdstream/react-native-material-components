@@ -2,6 +2,7 @@
 MDCButton series contains MDCButton, MDCRaisedButton, MDCFlatButton, MDCFloatingButton.
 
 # Examples
+![alt text](/screenshots/MDCButton.gif "MDCButton")
 ```javascript
 import {MDCRaisedButton, MDCFloatingButton} from 'react-native-material-components';
 export default YourUIComponent extends React.Component {

@@ -17,6 +17,8 @@
 		509EA6F41EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6EA1EC0A7E2005A1AA3 /* RCTMDCFloatingButtonView.m */; };
 		509EA6F51EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6EC1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m */; };
 		509EA6F61EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA6EE1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m */; };
+		509EA72D1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA72A1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorManager.m */; };
+		509EA72E1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 509EA72C1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +54,10 @@
 		509EA6EC1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCRaisedButtonManager.m; sourceTree = "<group>"; };
 		509EA6ED1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCRaisedButtonView.h; sourceTree = "<group>"; };
 		509EA6EE1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCRaisedButtonView.m; sourceTree = "<group>"; };
+		509EA7291EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCActivityIndicatorManager.h; sourceTree = "<group>"; };
+		509EA72A1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCActivityIndicatorManager.m; sourceTree = "<group>"; };
+		509EA72B1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTMDCActivityIndicatorView.h; sourceTree = "<group>"; };
+		509EA72C1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTMDCActivityIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		5011AE781EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				509EA7281EC5EEE2005A1AA3 /* Indicators */,
 				509EA6861EBCBA43005A1AA3 /* Buttons */,
 				5011AE791EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.h */,
 				5011AE7A1EB9EFC100EC6A22 /* RCTMaterialComponentsWrapper.m */,
@@ -112,6 +119,17 @@
 				509EA6EE1EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m */,
 			);
 			name = Buttons;
+			sourceTree = "<group>";
+		};
+		509EA7281EC5EEE2005A1AA3 /* Indicators */ = {
+			isa = PBXGroup;
+			children = (
+				509EA7291EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorManager.h */,
+				509EA72A1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorManager.m */,
+				509EA72B1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorView.h */,
+				509EA72C1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorView.m */,
+			);
+			name = Indicators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,7 +190,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509EA72D1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorManager.m in Sources */,
 				509EA6F01EC0A7E2005A1AA3 /* RCTMDCButtonView.m in Sources */,
+				509EA72E1EC5EEFA005A1AA3 /* RCTMDCActivityIndicatorView.m in Sources */,
 				509EA6F61EC0A7E2005A1AA3 /* RCTMDCRaisedButtonView.m in Sources */,
 				509EA6F21EC0A7E2005A1AA3 /* RCTMDCFlatButtonView.m in Sources */,
 				509EA6F51EC0A7E2005A1AA3 /* RCTMDCRaisedButtonManager.m in Sources */,
